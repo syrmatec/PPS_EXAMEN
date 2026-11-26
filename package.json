@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-nodejs",
+  "version": "1.0.0",
+  "description": "Práctica de desarrollo guiado por pruebas (TDD) en NodeJS con Mocha y Should",
+  "main": "operations.js",
+  "scripts": {
+    "test": "mocha",
+    "test1": "mocha test/test1.js",
+    "test2": "mocha test/test2.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2",
+    "should": "^13.2.3"
+  }
+}
